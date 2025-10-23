@@ -1,0 +1,29 @@
+# Django Framework
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# PostgreSQL Database Adapter
+psycopg2-binary==2.9.9
+
+# Geospatial Libraries
+# Note: GDAL should be installed via OSGeo4W, not pip
+# If pip GDAL install fails, skip it and use OSGeo4W's GDAL
+GDAL==3.7.3
+Fiona==1.9.5
+Shapely==2.0.2
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables (Optional but recommended)
+python-decouple==3.8
+
+# Time Zone Support
+pytz==2023.3
+
+# Additional Utilities
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+urllib3==2.1.0
