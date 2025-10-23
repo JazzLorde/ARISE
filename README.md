@@ -141,8 +141,9 @@ CREATE EXTENSION postgis;
 - Exit psql  
 \q  
 
-# Step 7: Restore Database from Backup
-Option A: Using pgAdmin (Windows - Recommended)  
+# Step 7: Restore Database from Backup  
+Database Backup Link: https://drive.google.com/drive/u/5/folders/1L8TE_teKz3ENe0woNetcBmOiwCRsglGd  
+Option A: Using pgAdmin 
 Copy Backup File:  
 - Locate arise_database_backup.backup (or .sql file) from the repository
 - Note the file location
